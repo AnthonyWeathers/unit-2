@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(134, 207, 183);
+}
+
+section {
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+h2, p {
+    display: flex;
+    justify-content: center;
+}

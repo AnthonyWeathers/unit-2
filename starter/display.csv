@@ -1,0 +1,8 @@
+size,name,price,flavor,frosting,sprinkles,filling
+regular,Frosted Cupcake,3.0,Regular,Strawberry,"['Red', 'Green', 'Blue', 'White']",None
+mini,Regular,2.0,Regular,None,[],None
+mini,Frosted,2.5,Regular,Vanilla,"['Red', 'Pink']",None
+large,Frosted Filled Chocolate Cupcake,4.5,Chocolate,Vanilla,"['Green', 'White', 'Cyan']",Strawberry
+large,Chocolate,4.25,Chocolate,None,"['Green', 'White', 'Cyan']",None
+large,Frosted Filled,4.5,Regular,Vanilla,"['White', 'Cyan']",Chocolate
+regular,Banana Filling Cupcake,2.75,Regular,None,[],Banana

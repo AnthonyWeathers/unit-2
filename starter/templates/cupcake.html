@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <nav>
+        <a href="{{ url_for('home') }}">
+            <button>Return to main page</button>
+        </a>
+    </nav>
+
+    <h2>{{ cupcake["name"] }}</h2>
+    <h4>Flavor: {{ cupcake["flavor"] }}</h4>
+    <h4>Frosting: {{ cupcake["frosting"] }}</h4>
+    <h4><b>Price: ${{ cupcake["price"] }}</b></h4>
+
+
+{% endblock %}

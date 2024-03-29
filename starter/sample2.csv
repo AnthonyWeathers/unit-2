@@ -1,0 +1,4 @@
+size,name,price,flavor,frosting,sprinkles,filling
+regular,Frosted Cupcake,3.0,Regular,Strawberry,"['Red', 'Green', 'Blue', 'White']",
+mini,Frosted Cupcake,3.0,Regular,Strawberry,['Red'],
+large,Chocolate,2.5,Chocolate,Vanilla,"['Green', 'Blue']",Strawberry

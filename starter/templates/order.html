@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <nav>
+        <a href="{{ url_for('home') }}">
+            <button>Return to main page</button>
+        </a>
+    </nav>
+
+    <h2> Current Orders </h2>
+
+    <section>
+        {% if cupcakes|length > 0 %}
+            {% for cupcake in cupcakes %}
+                <h3>{{ cupcake["name"] }}</h3>
+                <h4>Flavor: {{ cupcake["flavor"] }}</h4>
+                <h4>Frosting: {{ cupcake["frosting"] }}</h4>
+                <h4><b>Price: ${{ cupcake["price"] }}</b></h4>
+                <a href="{{ url_for('delete_cupcake', name=cupcake['name']) }}">
+                    <button>Remove order</button>
+                </a>
+            {% endfor %}
+        {% else %}
+            <h2>No current orders present.</h2>
+        {% endif %}
+    </section>
+
+{% endblock %}
